@@ -1,0 +1,106 @@
+/* Banner.css */
+
+.banner-container {
+  width: 100%;
+  position: relative;
+}
+
+.image-container {
+  width: 100%;
+  height: auto;
+}
+
+.banner-image {
+  width: 100%;
+  height: auto;
+  object-fit: cover;
+}
+
+.text-container {
+  position: absolute;
+  top: 50%;
+  transform: translateX(21%) translateY(-50%);
+  color: white;
+  width: 50%;
+}
+
+.divider {
+  position: relative;
+  width: 100%;
+}
+
+.divider::after {
+  content: "";
+  position: absolute;
+  left: 0;
+  right: 0;
+  height: 1px;
+  background-color: white;
+  top: 50%;
+  transform: translateY(-50%);
+}
+
+.content {
+  margin-top: 1rem;
+}
+
+.heading {
+  font-family: serif;
+  font-size: 5rem;
+}
+
+.description {
+  font-size: 1.2rem;
+  color: #cccccc;
+  line-height: 1.5;
+}
+
+.button-container {
+  width: 28%;
+  margin-top: 2rem;
+}
+
+.button {
+  width: 100%;
+  color: white;
+  background-color: transparent;
+  border: none;
+  font-size: 1rem;
+  cursor: pointer;
+  background-color: #4caf50;
+  outline: none;
+  border-radius: 0.5rem;
+  padding: 1rem;
+  cursor: pointer;
+}
+.button:hover {
+  background-color: #3e8e41;
+  transition: background-color 0.3s ease;
+}
+/* For small devices (phones, 768px and below) */
+@media only screen and (max-width: 600px) {
+  .text-container {
+    display: none;
+  }
+}
+
+/* For medium devices (tablets, 768px and above) */
+@media only screen and (min-width: 600px) and (max-width: 1024px) {
+  /* CSS rules for medium devices */
+  .description {
+    font-size: Max(1.5vw, 1.5vh);
+  }
+  .heading {
+    font-family: serif;
+    font-size: 1.5rem;
+  }
+  .button {
+    padding: 0.5rem;
+    font-size: 0.5rem;
+  }
+}
+
+/* For large devices (desktops, 1024px and above) */
+@media only screen and (min-width: 1024px) {
+  /* CSS rules for large devices */
+}

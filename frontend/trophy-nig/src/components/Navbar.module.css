@@ -1,0 +1,21 @@
+.navBar {
+  /* border: 1px solid red; */
+}
+@media only screen and (max-width: 768px) {
+  .navBar {
+    padding: 0.5rem;
+  }
+  .navBarContain {
+    justify-content: space-between;
+  }
+}
+
+/* For medium devices (tablets, 768px and above) */
+@media only screen and (min-width: 768px) and (max-width: 1024px) {
+  /* CSS rules for medium devices */
+}
+
+/* For large devices (desktops, 1024px and above) */
+@media only screen and (min-width: 1024px) {
+  /* CSS rules for large devices */
+}

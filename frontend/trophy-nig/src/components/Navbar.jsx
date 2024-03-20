@@ -1,5 +1,6 @@
 import React, { useEffect, useState } from "react";
-
+import cn from "classnames";
+import style from "./Navbar.module.css";
 const Navbar = () => {
   const [scrollY, setScrollY] = useState(0);
 
@@ -16,13 +17,19 @@ const Navbar = () => {
   }, []);
   return (
     <nav
-      class={
+      class={cn(
         scrollY
-          ? "bg-gray-400 p-4 fixed top-0 w-full z-50"
-          : "p-4 fixed top-0 w-full z-50"
-      }
+          ? "bg-white p-4 fixed top-0 w-full z-50"
+          : "p-4 fixed top-0 w-full z-50",
+        style.navBar
+      )}
     >
-      <div class="container mx-auto flex justify-around items-center">
+      <div
+        class={cn(
+          "container mx-auto flex sm:justify-between md:justify-around lg:justify-around items-center",
+          style.navBarContain
+        )}
+      >
         {/* <!-- Logo --> */}
         <a href="#" class="flex items-center">
           <img
@@ -68,8 +75,6 @@ const Navbar = () => {
           <a href="#" class="text-green-400 hover:text-green-400 px-3 py-2">
             About us
           </a>
-
-         
 
           {/* <!-- Person icon --> */}
           <div class="flex items-center ml-4">
