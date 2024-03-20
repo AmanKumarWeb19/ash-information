@@ -12,7 +12,6 @@ const Banner = () => {
       </div>
 
       <div className="border absolute top-1/2 transform translate-x-[21%] -translate-y-1/2 text-white w-5/12">
-        {/* <p className="text-xl">We are Offering the</p> */}
         <div className="flex gap-2">
           <div className="px-6 py-4 relative">
             <div className="absolute left-0 right-0 h-px bg-white top-1/2 transform -translate-y-1/2"></div>
@@ -23,10 +22,10 @@ const Banner = () => {
         </div>
 
         <div className="leading-relaxed ">
-          <h1 className="text-6xl font-serif tracking-wide">
+          <h1 className="text-6xl font-serif tracking-wide sm:text-4xl md:text-5xl">
             Best Real Estate Deals
           </h1>
-          <p className="tracking-wide leading-relaxed text-gray-200">
+          <p className="tracking-wide leading-relaxed text-gray-200 sm:text-sm md:text-base">
             Lorem ipsum dolor sit amet consectetur, adipisicing elit. Aut quam
             esse, commodi sint quia fugiat dolorem architecto vero enim mollitia
             sunt error quibusdam! Cum aperiam tempore repudiandae, saepe nobis
