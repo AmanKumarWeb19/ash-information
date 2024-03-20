@@ -6,13 +6,18 @@ import Carousel from "./Carousel";
 const Feature = () => {
   return (
     <div className={styles.feature_container}>
-      <div className={styles.featureHead}>
-        <h1>Featured Properties</h1>
+      <div className={cn(styles.featureHead, "pt-[2.5rem] pb-4")}>
+        <h1 className="text-center font-sans font-semibold text-[#10c66f] text-[3vw]">
+          Featured Properties
+        </h1>
       </div>
-      <div className={cn("text-center")}>
-        Lorem ipsum dolor sit amet consectetur, adipisicing elit. Incidunt
-        repellendus, tempore reiciendis illum rem nisi ullam perspiciatis
-        necessitatibus similique provident.
+      <div
+        className={cn("text-center text-[1.2vw] text-[#665D7D] pt-2 pb-5 px-8")}
+      >
+        Lorem, ipsum dolor sit amet consectetur adipisicing elit. Officiis
+        delectus, facilis perspiciatis ea rem veritatis pariatur cumque in,
+        sapiente iure fuga, fugiat quam reiciendis necessitatibus expedita. Vero
+        rerum asperiores quam.
       </div>
       <Carousel />
     </div>
