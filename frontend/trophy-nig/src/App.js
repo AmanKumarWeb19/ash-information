@@ -11,7 +11,7 @@ function App() {
     <div ref={containerRef} className="w-full">
       <Navbar />
       <Banner />
-      {/* <Feature /> */}
+      <Feature />
     </div>
   );
 }

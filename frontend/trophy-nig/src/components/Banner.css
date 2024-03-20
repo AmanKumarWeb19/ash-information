@@ -40,10 +40,6 @@
   transform: translateY(-50%);
 }
 
-.content {
-  margin-top: 1rem;
-}
-
 .heading {
   font-family: serif;
   font-size: 5rem;
@@ -97,6 +93,12 @@
   .button {
     padding: 0.5rem;
     font-size: 0.5rem;
+  }
+  .text-container {
+    bottom: 1rem;
+    transform: none;
+    left: 2rem;
+    top: auto;
   }
 }
 

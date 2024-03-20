@@ -1,0 +1,8 @@
+.feature_container {
+  border: 2px solid red;
+  width: 80%;
+  margin: auto;
+}
+.featureHead {
+  border: 1px solid black;
+}
