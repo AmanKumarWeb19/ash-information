@@ -2,7 +2,7 @@ import React from "react";
 
 const Banner = () => {
   return (
-    <div className="border border-red-500 w-full relative">
+    <div className="w-full relative">
       <div className="w-full">
         <img
           className="w-full"
@@ -11,7 +11,7 @@ const Banner = () => {
         />
       </div>
 
-      <div className="border absolute top-1/2 transform translate-x-[21%] -translate-y-1/2 text-white w-5/12">
+      <div className="absolute top-1/2 transform translate-x-[21%] -translate-y-1/2 text-white w-5/12">
         {/* <p className="text-xl">We are Offering the</p> */}
         <div className="flex gap-2">
           <div className="px-6 py-4 relative">
@@ -34,7 +34,7 @@ const Banner = () => {
           </p>
         </div>
 
-        <div className="border border-red-500 w-28 p-2 leading-relaxed mt-6 bg-green-500 rounded-lg">
+        <div className="w-28 p-2 leading-relaxed mt-6 bg-green-500 rounded-lg">
           <button>More Details</button>
         </div>
       </div>
