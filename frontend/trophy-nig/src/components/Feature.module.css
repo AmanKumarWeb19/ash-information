@@ -3,9 +3,7 @@
   width: 80%;
   margin: auto;
 }
-.featureHead {
-  /* border: 1px solid black; */
-}
+
 .glassmorphism {
   background: rgba(255, 255, 255, 0.3);
   backdrop-filter: blur(10px);

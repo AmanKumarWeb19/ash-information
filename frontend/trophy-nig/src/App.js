@@ -1,5 +1,6 @@
 import "./App.css";
 import Banner from "./components/Banner";
+import Designer from "./components/Designer";
 import Feature from "./components/Feature";
 import Navbar from "./components/Navbar";
 import { useRef } from "react";
@@ -12,6 +13,7 @@ function App() {
       <Navbar />
       <Banner />
       <Feature />
+      <Designer />
     </div>
   );
 }
