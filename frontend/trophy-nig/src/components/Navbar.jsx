@@ -79,7 +79,7 @@ const Navbar = () => {
           {/* <!-- Person icon --> */}
           <div class="flex items-center ml-4">
             <svg
-              class="h-8 w-8 text-white"
+              class={cn("h-8 w-8", scrollY ? "text-[#10c66f]" : "text-white")}
               fill="none"
               stroke="currentColor"
               viewBox="0 0 24 24"

@@ -50,7 +50,10 @@ const TopRated = () => {
         </h1>
       </div>
       <div
-        className={cn("text-center text-[1.2vw] text-[#665D7D] pt-2 pb-5 px-8")}
+        className={cn(
+          "text-center text-[1.2vw] text-[#665D7D] pt-2 pb-5 px-8",
+          styles.titletext
+        )}
       >
         Lorem, ipsum dolor sit amet consectetur adipisicing elit. Officiis
         delectus, facilis perspiciatis ea rem veritatis pariatur cumque in,

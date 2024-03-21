@@ -26,7 +26,7 @@
 
 .divider {
   position: relative;
-  width: 100%;
+  width: 10%;
 }
 
 .divider::after {

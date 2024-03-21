@@ -11,3 +11,19 @@
   border: 1px solid rgba(255, 255, 255, 0.18); /* Adjust as needed */
   box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37); /* Adjust as needed */
 }
+/* For small devices (phones, 768px and below) */
+@media only screen and (max-width: 600px) {
+  .titletext {
+    font-size: Max(1vw, 1vh);
+  }
+}
+
+/* For medium devices (tablets, 768px and above) */
+@media only screen and (min-width: 600px) and (max-width: 1024px) {
+  /* CSS rules for medium devices */
+}
+
+/* For large devices (desktops, 1024px and above) */
+@media only screen and (min-width: 1024px) {
+  /* CSS rules for large devices */
+}

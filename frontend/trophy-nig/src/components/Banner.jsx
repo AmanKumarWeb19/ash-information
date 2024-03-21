@@ -14,16 +14,16 @@ const Banner = () => {
         />
       </div>
 
-      <div className="text-container">
-        <div className="divider"></div>
-        <div>
-          <p>We are Offering the</p>
+      <div className="text-container style">
+        <div className="flex gap-2">
+          <div className="divider"></div>
+          <div>
+            <p>We are Offering the</p>
+          </div>
         </div>
 
         <div className="content">
-          <h1 className="heading">
-            Best Real Estate Deals
-          </h1>
+          <h1 className="heading">Best Real Estate Deals</h1>
           <p className="description">
             Lorem ipsum dolor sit amet consectetur, adipisicing elit. Aut quam
             esse, commodi sint quia fugiat dolorem architecto vero enim mollitia
