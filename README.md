@@ -1,6 +1,7 @@
 ## Trophy Nig. Real Estate Website
 Welcome to Trophy Nig., your go-to destination for real estate solutions! This project is a web application built with React.js, tailored to provide users with an intuitive interface to explore properties, meet designers, and stay updated with the latest real estate trends.
 
+![homePage](https://github.com/AmanKumarWeb19/ash-information/assets/105958123/96908ed2-4aba-4491-aed5-71461c0e8989)
 
 
 ## Deployed link :- https://trophy-nig-amankumarweb19-amankumarweb19s-projects.vercel.app/
