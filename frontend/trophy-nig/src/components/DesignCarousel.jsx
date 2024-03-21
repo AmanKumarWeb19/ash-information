@@ -85,11 +85,11 @@ const DesignerCarousel = () => {
           <div className="px-6 w-[80%] shadow-lg">
             <div
               key={item.id}
-              className="border border-gray-200 rounded-t-[0.5rem] font-sans"
+              className="border border-gray-200 rounded-t-[0.5rem] font-sans py-5"
             >
-              <div className="relative">
+              <div className="relative flex items-center justify-center">
                 <img
-                  className="h-full w-full rounded-lg"
+                  className="h-40 w-40 rounded-[100%]  "
                   src={item.img}
                   alt=""
                 />

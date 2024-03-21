@@ -2,8 +2,10 @@ import "./App.css";
 import Banner from "./components/Banner";
 import Designer from "./components/Designer";
 import Feature from "./components/Feature";
+import Footer from "./components/Footer";
 import Navbar from "./components/Navbar";
 import { useRef } from "react";
+import TopRated from "./components/TopRated";
 
 function App() {
   const containerRef = useRef();
@@ -14,6 +16,8 @@ function App() {
       <Banner />
       <Feature />
       <Designer />
+      <TopRated />
+      <Footer />
     </div>
   );
 }
