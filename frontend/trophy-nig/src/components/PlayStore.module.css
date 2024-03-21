@@ -1,0 +1,97 @@
+.storeContainer {
+  background-color: rgb(242, 241, 241);
+  margin: 4rem auto;
+  width: 80%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  padding-top: 30px;
+}
+
+.content {
+  flex: 1;
+  padding: 0 20px;
+  max-width: 600px;
+}
+
+.title {
+  font-size: 2rem;
+  font-weight: bold;
+}
+
+.subtitle {
+  margin-top: 10px;
+}
+
+.features {
+  margin-top: 20px;
+}
+
+.feature {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.icon {
+  width: 24px;
+  height: 24px;
+}
+
+.btn_Img_Container {
+  margin-top: 20px;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+}
+
+.btn_img {
+  width: 46%;
+}
+
+.img {
+  width: 100%;
+  border-radius: 8px;
+}
+
+.imageContainer {
+  flex: 1;
+  display: flex;
+  justify-content: center;
+}
+
+.image {
+  max-width: 100%;
+  height: auto;
+  border-radius: 8px;
+}
+
+/* Media Queries */
+
+/* For small devices (mobile phones, 0 to 767px) */
+@media only screen and (max-width: 767px) {
+  .storeContainer {
+    width: 90%;
+  }
+  .content {
+    padding: 0 10px;
+  }
+  .title {
+    font-size: 1.5rem;
+  }
+}
+
+/* For medium devices (tablets, 768px and above) */
+@media only screen and (min-width: 768px) and (max-width: 1024px) {
+  .storeContainer {
+    width: 90%;
+  }
+}
+
+/* For large devices (desktops, 1024px and above) */
+@media only screen and (min-width: 1024px) {
+  .storeContainer {
+    width: 70%;
+  }
+}

@@ -78,9 +78,6 @@ const TopRated = () => {
                 <span className="font-bold">{item.bed}</span> Bed{" "}
                 <span className="font-bold">{item.bath}</span> bath
               </div>
-              <div className="mt-32 text-[0.8rem] text-gray-500">
-                {item.developer}
-              </div>
             </div>
           </div>
         ))}

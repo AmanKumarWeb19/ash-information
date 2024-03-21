@@ -6,6 +6,7 @@ import Footer from "./components/Footer";
 import Navbar from "./components/Navbar";
 import { useRef } from "react";
 import TopRated from "./components/TopRated";
+import PlayStore from "./components/PlayStore";
 
 function App() {
   const containerRef = useRef();
@@ -17,6 +18,7 @@ function App() {
       <Feature />
       <Designer />
       <TopRated />
+      <PlayStore />
       <Footer />
     </div>
   );
