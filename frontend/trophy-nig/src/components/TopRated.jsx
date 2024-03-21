@@ -61,9 +61,16 @@ const TopRated = () => {
         rerum asperiores quam.
       </div>
 
-      <div className="flex border shadow-2xl justify-between items-center h-64 gap-6">
+      <div
+        className={cn(
+          "flex border shadow-2xl justify-between items-center h-64 gap-6",
+          styles.topRatedTileConatiner
+        )}
+      >
         {properties?.map((item) => (
-          <div className="flex justify-between w-[30%] h-[100%] bg-gray-200">
+          <div
+            className={cn("flex justify-between w-[30%] h-[100%] bg-gray-200", styles.topRatedTiles)}
+          >
             <div className="w-[40%] h-[100%] image-container">
               <img
                 className="w-[90%] h-full object-cover"

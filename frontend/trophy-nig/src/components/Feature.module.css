@@ -16,6 +16,14 @@
   .titletext {
     font-size: Max(1vw, 1vh);
   }
+  .topRatedTileConatiner {
+    flex-direction: column;
+    height: auto;
+    padding: 2rem 0;
+  }
+  .topRatedTiles {
+    width: 90%;
+  }
 }
 
 /* For medium devices (tablets, 768px and above) */
