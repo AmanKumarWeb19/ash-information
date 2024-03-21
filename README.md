@@ -2,6 +2,8 @@
 Welcome to Trophy Nig., your go-to destination for real estate solutions! This project is a web application built with React.js, tailored to provide users with an intuitive interface to explore properties, meet designers, and stay updated with the latest real estate trends.
 
 
+## Deployed link :- https://trophy-nig-amankumarweb19-amankumarweb19s-projects.vercel.app/
+
 ## Features
 - Navbar: A responsive navigation bar that sticks to the top of the page, providing easy access to various sections of the website.
 - Banner: Engaging banner section showcasing the best real estate deals with captivating images and descriptions.
@@ -38,7 +40,7 @@ https://github.com/AmanKumarWeb19/ash-information.git
 Explore the different sections of the website through the navigation bar. Browse featured properties, meet designers, and check out top-rated properties. Don't forget to download our mobile app from the App Store or Google Play Store for seamless real estate browsing on the go!
 
 Credits
-Developed by Your @Aman Kumar
+Developed by Your Aman Kumar
 
 ## Feedback
 If you have any feedback or suggestions, please feel free to open an issue or contact us. We'd love to hear from you!
