@@ -63,7 +63,7 @@ const TopRated = () => {
 
       <div className="flex border shadow-2xl justify-between items-center h-64 gap-6">
         {properties?.map((item) => (
-          <div className="flex justify-between w-[30%] h-[100%] bg-gray-200">
+          <div className="flex justify-between w-[30%] h-[100%] bg-gray-200 border border-red-600">
             <div className="w-[40%] h-[100%] image-container">
               <img
                 className="w-[90%] h-full object-cover"
