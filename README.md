@@ -38,7 +38,7 @@ https://github.com/AmanKumarWeb19/ash-information.git
 Explore the different sections of the website through the navigation bar. Browse featured properties, meet designers, and check out top-rated properties. Don't forget to download our mobile app from the App Store or Google Play Store for seamless real estate browsing on the go!
 
 Credits
-Developed by Your Aman Kumar
+Developed by Your @Aman Kumar
 
 ## Feedback
 If you have any feedback or suggestions, please feel free to open an issue or contact us. We'd love to hear from you!
