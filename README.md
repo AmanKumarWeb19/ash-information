@@ -3,6 +3,9 @@ Welcome to Trophy Nig., your go-to destination for real estate solutions! This p
 
 ![homePage](https://github.com/AmanKumarWeb19/ash-information/assets/105958123/96908ed2-4aba-4491-aed5-71461c0e8989)
 
+![Screenshot 2024-03-21 145813](https://github.com/AmanKumarWeb19/ash-information/assets/105958123/a2596424-2ae9-48f0-9eee-63c9e4b896ef)
+
+
 
 ## Deployed link :- https://trophy-nig-amankumarweb19-amankumarweb19s-projects.vercel.app/
 
