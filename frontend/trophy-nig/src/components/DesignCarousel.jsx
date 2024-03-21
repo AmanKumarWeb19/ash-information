@@ -95,9 +95,29 @@ const DesignerCarousel = () => {
                 />
               </div>
               <div className="px-4 py-3 text-center">
-                <div>{item.name}</div>
-                <div className="font-bold text-[#10C66F] leading-[1.5rem]">
+                <div className="font-bold text-[#133223]">{item.name}</div>
+                <div className="text-[#133223] leading-[1.5rem]">
                   {item.profession}
+                </div>
+                <div className="flex items-center justify-evenly">
+                  <div>
+                    <i
+                      class="fa-brands fa-facebook"
+                      style={{ color: "#10c66f" }}
+                    ></i>
+                  </div>
+                  <div>
+                    <i
+                      class="fa-brands fa-instagram"
+                      style={{ color: "#10c66f" }}
+                    ></i>
+                  </div>
+                  <div>
+                    <i
+                      class="fa-brands fa-twitter"
+                      style={{ color: "#10c66f" }}
+                    ></i>
+                  </div>
                 </div>
               </div>
             </div>
