@@ -12,20 +12,17 @@ Welcome to Trophy Nig., your go-to destination for real estate solutions! This p
   
 ## Installation
 - Clone the repository to your local machine:
-- Copy code
-git clone https://github.com/your-username/trophy-nig.git
+https://github.com/AmanKumarWeb19/ash-information.git
 
 ## Navigate to the project directory:
-Copy code
-cd trophy-nig
+- cd trophy-nig
 
 ## Install dependencies using npm:
-npm install
+- npm install
 
 
 ## Start the development server:
-Copy code
-npm start
+- npm start
 
 ## Open your web browser and visit http://localhost:3000 to view the application.
 
